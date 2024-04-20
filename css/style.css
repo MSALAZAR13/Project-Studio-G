@@ -464,140 +464,154 @@ footer {
       border-radius: 50%; }
 
 @media (max-width: 768px) {
-  header {
+  .logo-studio {
     width: 100%;
-    height: 60px; }
-  .logo-studio div img {
-    width: 100px; }
-  .navBar {
-    flex-wrap: nowrap;
-    width: 100%; }
-  .navBar li a {
-    width: 70px;
-    font-size: 20px; }
-  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
-    padding: 10px 5px;
-    border-radius: 12px 0px 12px; }
-  .we {
-    padding: 10px 5px;
-    border-radius: 12px 0px 12px; }
-  .services {
-    padding: 10px 5px;
-    border-radius: 12px 0px 12px; }
-  .location {
-    padding: 10px 5px;
-    border-radius: 12px 0px 12px; }
-  .contacts {
-    padding: 10px 5px;
-    border-radius: 12px 0px 12px; }
-  .direction-footer {
+    height: 70px; }
+    .logo-studio div a img {
+      width: 100px; }
+    .logo-studio nav .navBar {
+      flex-wrap: nowrap;
+      width: 100%; }
+      .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .we {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .services {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .location {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .contacts {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar li a {
+        width: 70px;
+        font-size: 15px; }
+  footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
-  .contacts-footer {
+  footer .contacts-footer {
     margin-top: 30px;
     width: 30%; } }
 
 @media (max-width: 425px) {
-  header {
-    height: 90px; }
   .logo-studio {
+    height: 95px;
     flex-direction: column;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .navBar li a {
-    width: 100%;
-    font-size: 15px; }
-  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 10px 0px 10px; }
-  .we {
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 10px 0px 10px; }
-  .services {
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 10px 0px 10px; }
-  .location {
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 10px 0px 10px; }
-  .contacts {
-    margin-top: 10px;
-    padding: 6px 4px;
-    border-radius: 10px 0px 10px; }
+    .logo-studio div a img {
+      height: 22px; }
+    .logo-studio nav .navBar li a {
+      width: 100%;
+      font-size: 15px; }
+    .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+      margin-top: 10px;
+      padding: 6px 1px;
+      border-radius: 10px 0px 10px; }
+    .logo-studio nav .navBar .we {
+      margin-top: 10px;
+      padding: 6px 1px;
+      border-radius: 10px 0px 10px; }
+    .logo-studio nav .navBar .services {
+      margin-top: 10px;
+      padding: 6px 1px;
+      border-radius: 10px 0px 10px; }
+    .logo-studio nav .navBar .location {
+      margin-top: 10px;
+      padding: 6px 1px;
+      border-radius: 10px 0px 10px; }
+    .logo-studio nav .navBar .contacts {
+      margin-top: 10px;
+      padding: 6px 1px;
+      border-radius: 10px 0px 10px; }
   .card-servicios {
     width: 350px; }
   .main-contactos {
     flex-direction: column; }
-  .redes-sociales {
-    flex-direction: row;
-    width: 100%;
-    height: 200px;
-    margin-top: 50px;
-    gap: 20px;
-    font-size: 35px; }
-  form {
-    margin: auto; }
+    .main-contactos .redes-sociales {
+      flex-direction: row;
+      width: 100%;
+      height: 50px;
+      margin-top: 50px;
+      gap: 20px;
+      font-size: 35px; }
+      .main-contactos .redes-sociales a {
+        font-size: 30px; }
+    .main-contactos form {
+      margin: auto; }
   footer {
     height: 150px; }
-  .direction-footer {
-    font-size: 10px; }
-  .contacts-footer {
-    font-size: 10px; } }
+    footer .direction-footer {
+      font-size: 10px; }
+    footer .contacts-footer {
+      font-size: 10px; } }
 
 @media (max-width: 375px) {
-  header {
+  .logo-studio {
     width: 100%;
-    height: 320px; }
-  .logo-studio div img {
-    width: 150px; }
-  .navBar {
-    gap: 1px;
-    flex-direction: column;
-    text-align: center; }
-  .navBar li a {
-    width: 100%;
-    font-size: 30px; }
-  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
-    padding: 1px 90px; }
-  .we {
-    padding: 1px 90px; }
-  .services {
-    padding: 1px 90px; }
-  .location {
-    padding: 1px 90px; }
-  .contacts {
-    padding: 1px 90px; }
+    height: 260px; }
+    .logo-studio div img {
+      width: 150px; }
+    .logo-studio nav .navBar {
+      width: 100%;
+      gap: 1px;
+      flex-direction: column;
+      text-align: center; }
+      .logo-studio nav .navBar li a {
+        width: 100%;
+        font-size: 20px; }
+      .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+        padding: 8px 60px; }
+      .logo-studio nav .navBar .we {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .services {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .location {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .contacts {
+        padding: 1px 60px; }
   .card-servicios {
     width: 300px; }
   .redes-sociales {
     font-size: 30px; } }
 
 @media (max-width: 320px) {
-  header {
+  .logo-studio {
     width: 100%;
-    height: 320px; }
-  .logo-studio div img {
-    width: 150px; }
-  .navBar {
-    gap: 1px;
-    flex-direction: column;
-    text-align: center; }
-  .navBar li a {
-    width: 100%;
+    height: 260px; }
+    .logo-studio .div img {
+      margin-top: 10px;
+      width: 120px;
+      height: 25px; }
+    .logo-studio nav .navBar {
+      width: 100%;
+      gap: 1px;
+      flex-direction: column;
+      text-align: center; }
+      .logo-studio nav .navBar li a {
+        width: 100%;
+        font-size: 20px; }
+      .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+        padding: 8px 60px; }
+      .logo-studio nav .navBar .we {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .services {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .location {
+        padding: 1px 60px; }
+      .logo-studio nav .navBar .contacts {
+        padding: 1px 60px; } }
+
+.mainServicios section .card-servicios {
+  width: 280px;
+  height: 70px; }
+  .mainServicios section .card-servicios h2 {
+    margin-top: 5px;
     font-size: 30px; }
-  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
-    padding: 1px 90px; }
-  .we {
-    padding: 1px 90px; }
-  .services {
-    padding: 1px 90px; }
-  .location {
-    padding: 1px 90px; }
-  .contacts {
-    padding: 1px 90px; }
-  .card-servicios {
-    width: 270px; } }
+  .mainServicios section .card-servicios p {
+    font-size: 15px; }

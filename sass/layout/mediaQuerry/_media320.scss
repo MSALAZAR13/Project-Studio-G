@@ -1,36 +1,59 @@
 @media (max-width:320px){
-    header{
+    .logo-studio{
         width: 100%;
-        height: 320px;
-    }
-    .logo-studio div img{
-        width: 150px;
-    }
-    .navBar{
-        gap: 1px;
-        flex-direction: column;
-        text-align: center;
-    }
-    .navBar li a{
-        width: 100%;
-        font-size: 30px;
-    }
-    .home{
-        padding: 1px 90px;
-    }
-    .we{
-        padding: 1px 90px;
-    }
-    .services{
-        padding: 1px 90px;
-    }
-    .location{
-        padding: 1px 90px;
-    }
-    .contacts{
-        padding: 1px 90px;
-    }
-    .card-servicios{
-        width: 270px;
+        height: 260px;
+        .div{
+            img{
+                margin-top: 10px;
+                width: 120px;
+                height: 25px;
+            }
+        }
+        nav{
+            .navBar{
+                width: 100%;
+                gap: 1px;
+                flex-direction: column;
+                text-align: center;
+                li{
+                    a{
+                        width: 100%;
+                        font-size: 20px;
+                    }
+                }
+                .home{
+                    padding: 8px 60px;
+                }
+                .we{
+                    padding: 1px 60px;
+                }
+                .services{
+                    padding: 1px 60px;
+                }
+                .location{
+                    padding: 1px 60px;
+                }
+                .contacts{
+                    padding: 1px 60px;
+                }
+            }
+        }
     }
 }
+
+.mainServicios{
+    section{
+        .card-servicios{
+            width: 280px;
+            height: 70px;
+            h2{
+                margin-top: 5px;
+                font-size: 30px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
