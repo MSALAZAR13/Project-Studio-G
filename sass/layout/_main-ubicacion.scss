@@ -2,45 +2,50 @@
     width: 100%;
     height: 850px;
     background-color: #5A0000;
-}
-
-.titulo-ubicacion{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.titulo-ubicacion h3{
-    color: white;
-    margin-top: 100px;
-    width: 58%;
-    font-weight: lighter;
-    border-bottom: 4px solid #D60000;
-    margin-bottom: 10px;
-}
-
-.parrafoUbicacion p{
-    color: white;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.iframeUbicacion a{
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    background-color: #210000;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 30px 30px;
-    overflow: hidden;
-
+    section{
+        article{
+            div{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-family: "Bebas Neue", sans-serif;
+                h3{
+                    color: white;
+                    margin-top: 100px;
+                    width: 58%;
+                    font-weight: lighter;
+                    border-bottom: 4px solid #D60000;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .parrafoUbicacion{
+        div{
+            p{
+                color: white;
+                font-size: 20px;
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+                font-family: "Bebas Neue", sans-serif;
+            }
+        }
+        .iframeUbicacion{
+            a{
+                width: 600px;
+                display: flex;
+                justify-content: center;
+                background-color: #210000;
+                margin: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 30px 30px;
+                overflow: hidden;
+            }
+        }
+    }
 }

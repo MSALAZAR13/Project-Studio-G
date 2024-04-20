@@ -106,143 +106,114 @@ main {
           background-color: #7A0000; }
         main .flexbox1 .ppp h2 .p3 {
           background-color: #960000; }
-  main .productos-inicio div .flexbox2 {
-    width: 100%;
+  main .productos-inicio {
     display: flex;
-    margin: 15px;
-    gap: 10px; }
-    main .productos-inicio div .flexbox2 .card .position1 {
-      width: 100%;
-      height: 450px;
-      border-radius: 30px 0px 30px;
-      box-shadow: 2px 2px 5px 5px #858585;
-      overflow: hidden; }
-      main .productos-inicio div .flexbox2 .card .position1 div img {
+    flex-direction: row; }
+    main .productos-inicio .primer-tercio {
+      width: 33.33%; }
+      main .productos-inicio .primer-tercio .flexbox2 {
         width: 100%;
-        height: 390px; }
-      main .productos-inicio div .flexbox2 .card .position1 div .card-info {
-        text-align: center; }
-        main .productos-inicio div .flexbox2 .card .position1 div .card-info h3 {
-          margin-top: 10px; }
-
-.productos-inicio {
-  width: 100%;
-  display: flex;
-  justify-content: space-between; }
-
-.flexbox2 {
-  width: 100%;
-  display: flex;
-  margin: 15px;
-  gap: 10px; }
-
-.card {
-  width: 100%;
-  height: 450px;
-  border-radius: 30px 0px 30px;
-  box-shadow: 2px 2px 5px 5px #858585;
-  overflow: hidden; }
-
-.card div img {
-  width: 100%;
-  height: 390px; }
-
-.card .card-info {
-  text-align: center; }
-
-.card-info h3 {
-  margin-top: 10px; }
-
-.flexbox3 {
-  width: 100%;
-  display: flex;
-  margin: 15px;
-  gap: 10px; }
-
-.card {
-  width: 200px;
-  height: 440px;
-  margin-top: 15PX;
-  border-radius: 30px 0px 30px;
-  box-shadow: 2px 2px 5px 5px #858585;
-  overflow: hidden;
-  background-color: #b41b1bad; }
-
-.card div img {
-  width: 100%;
-  height: 390px; }
-
-.card .card-info {
-  font-family: "Bebas Neue", sans-serif;
-  color: white;
-  text-align: center; }
-
-.card .card-info h3 {
-  font-weight: lighter; }
-
-.position4 img {
-  object-fit: cover; }
-
-.position5 img {
-  object-fit: cover; }
-
-.parrafoProductos {
-  width: 100%;
-  font-family: "Bebas Neue", sans-serif;
-  display: flex;
-  padding: 50px 35px;
-  font-size: x-large; }
-
-.card-promos {
-  width: 600px;
-  height: 910px;
-  margin-top: 28px;
-  border-radius: 30px 30px;
-  overflow: hidden; }
-
-.card-promos div img {
-  width: 100%;
-  height: 100%; }
-
-.section-promos {
-  margin-right: 20px; }
-
-.parrafoPromos {
-  width: 100%;
-  font-family: "Bebas Neue", sans-serif;
-  display: flex;
-  padding: 50px 35px;
-  font-size: x-large; }
-
-.parrafoPromos p {
-  margin: auto; }
-
-.card-portfolio {
-  width: 600px;
-  height: 910px;
-  margin-top: 28px;
-  border-radius: 30px 30px;
-  overflow: hidden; }
-
-.card-portfolio div img {
-  width: 100%;
-  height: 1000px; }
-
-.section-portfolio {
-  margin-right: 15px; }
-
-.section-portfolio img {
-  height: 800px; }
-
-.parrafoPortfolio {
-  width: 100%;
-  font-family: "Bebas Neue", sans-serif;
-  display: flex;
-  padding: 50px 35px;
-  font-size: x-large; }
-
-.parrafoPortfolio p {
-  margin: auto; }
+        display: flex;
+        margin: 15px;
+        gap: 10px; }
+        main .productos-inicio .primer-tercio .flexbox2 .card {
+          width: 200px;
+          height: 440px;
+          margin-top: 15PX;
+          border-radius: 30px 0px 30px;
+          box-shadow: 2px 2px 5px 5px #858585;
+          overflow: hidden;
+          background-color: #b41b1bad; }
+          main .productos-inicio .primer-tercio .flexbox2 .card div img {
+            width: 100%;
+            height: 390px; }
+          main .productos-inicio .primer-tercio .flexbox2 .card .card-info {
+            font-family: "Bebas Neue", sans-serif;
+            color: white;
+            text-align: center; }
+            main .productos-inicio .primer-tercio .flexbox2 .card .card-info h3 {
+              margin-top: 10px;
+              font-weight: lighter; }
+      main .productos-inicio .primer-tercio .flexbox3 {
+        width: 100%;
+        display: flex;
+        margin: 15px;
+        gap: 10px; }
+        main .productos-inicio .primer-tercio .flexbox3 .card {
+          width: 200px;
+          height: 440px;
+          margin-top: 15PX;
+          border-radius: 30px 0px 30px;
+          box-shadow: 2px 2px 5px 5px #858585;
+          overflow: hidden;
+          background-color: #b41b1bad; }
+          main .productos-inicio .primer-tercio .flexbox3 .card div img {
+            width: 100%;
+            height: 390px; }
+          main .productos-inicio .primer-tercio .flexbox3 .card .card-info {
+            font-family: "Bebas Neue", sans-serif;
+            color: white;
+            text-align: center; }
+            main .productos-inicio .primer-tercio .flexbox3 .card .card-info h3 {
+              font-weight: lighter; }
+        main .productos-inicio .primer-tercio .flexbox3 .position4 img {
+          object-fit: cover; }
+        main .productos-inicio .primer-tercio .flexbox3 .position5 img {
+          object-fit: cover; }
+      main .productos-inicio .primer-tercio .parrafoProductos {
+        width: 100%;
+        font-family: "Bebas Neue", sans-serif;
+        display: flex;
+        padding: 50px 35px;
+        font-size: x-large; }
+        main .productos-inicio .primer-tercio .parrafoProductos p {
+          margin: auto; }
+    main .productos-inicio .segundo-tercio {
+      width: 33.33%; }
+      main .productos-inicio .segundo-tercio .section-promos article {
+        width: 600px;
+        height: 910px;
+        margin: auto;
+        margin-top: 28px;
+        border-radius: 30px 30px;
+        overflow: hidden; }
+        main .productos-inicio .segundo-tercio .section-promos article div {
+          margin: auto; }
+          main .productos-inicio .segundo-tercio .section-promos article div img {
+            width: 100%;
+            height: 100%; }
+      main .productos-inicio .segundo-tercio .parrafoPromos {
+        width: 100%;
+        font-family: "Bebas Neue", sans-serif;
+        display: flex;
+        padding: 50px 35px;
+        font-size: x-large; }
+        main .productos-inicio .segundo-tercio .parrafoPromos p {
+          margin: auto; }
+    main .productos-inicio .tercer-tercio {
+      width: 33.33%; }
+      main .productos-inicio .tercer-tercio .section-portfolio {
+        width: 100%; }
+        main .productos-inicio .tercer-tercio .section-portfolio .card-portfolio {
+          width: 600px;
+          height: 910px;
+          margin: auto;
+          margin-top: 28px;
+          border-radius: 30px 30px;
+          overflow: hidden; }
+          main .productos-inicio .tercer-tercio .section-portfolio .card-portfolio div {
+            margin: auto; }
+            main .productos-inicio .tercer-tercio .section-portfolio .card-portfolio div img {
+              width: 100%;
+              height: 1000px; }
+      main .productos-inicio .tercer-tercio .parrafoPortfolio {
+        width: 100%;
+        font-family: "Bebas Neue", sans-serif;
+        display: flex;
+        padding: 50px 35px;
+        font-size: x-large; }
+        main .productos-inicio .tercer-tercio .parrafoPortfolio p {
+          margin: auto; }
 
 .main-container {
   display: grid;
@@ -251,161 +222,142 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "main"; }
-
-.main-container main {
-  grid-area: main;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  background-color: #0000009c; }
-
-.main-grid a {
-  width: 100%;
-  height: 100%; }
-
-.main-grid a {
-  display: grid;
-  grid-column-start: 4;
-  grid-column-end: 6;
-  align-items: center;
-  justify-items: center; }
-
-.main-grid a img {
-  width: 100%;
-  height: 100%;
-  padding: 70px 40px; }
-
-.main-grid h1 {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  text-align: start;
-  align-items: end;
-  border-bottom: 5px solid #d60000;
-  margin-bottom: 100px;
-  font-family: "Bebas Neue", sans-serif; }
-
-.main-grid p {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 5;
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  padding-right: 10px;
-  text-align: justify; }
-
-.main-grid div {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 5;
-  grid-row-end: 7;
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white; }
-
-.main-grid img {
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-column-start: 4;
-  grid-column-end: 8;
-  grid-row-start: 2;
-  grid-row-end: 7;
-  padding: 2% 0% 0% 10%; }
+  .main-container main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-color: #0000009c; }
+    .main-container main a {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-column-start: 4;
+      grid-column-end: 6;
+      align-items: center;
+      justify-items: center; }
+      .main-container main a img {
+        width: 100%;
+        height: 100%;
+        padding: 70px 40px; }
+    .main-container main h1 {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      text-align: start;
+      align-items: end;
+      border-bottom: 5px solid #d60000;
+      margin-bottom: 100px;
+      font-family: "Bebas Neue", sans-serif; }
+    .main-container main p {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 5;
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+      padding-right: 10px;
+      text-align: justify; }
+    .main-container main div {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 7;
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white; }
+    .main-container main img {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      grid-column-start: 4;
+      grid-column-end: 8;
+      grid-row-start: 2;
+      grid-row-end: 7;
+      padding: 2% 0% 0% 10%; }
 
 .mainServicios {
   width: 100%;
   height: 900px; }
-
-.titulo-servicios {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Bebas Neue", sans-serif; }
-
-.titulo-servicios h1 {
-  margin-top: 100px;
-  width: 58%;
-  border-bottom: 4px solid #D60000;
-  margin-bottom: 10px; }
-
-.cards {
-  margin-top: 40px; }
-
-.card-servicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px;
-  height: 100px;
-  background-color: #530303e5;
-  margin: auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border-radius: 20px 0px 20px 0px;
-  box-shadow: 2px 2px 3px 3px #696969;
-  font-family: "Bebas Neue", sans-serif; }
-
-.card-servicios h2 {
-  color: white;
-  font-weight: lighter;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 50px; }
-
-.card-servicios p {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #858585; }
+  .mainServicios section div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif; }
+    .mainServicios section div h1 {
+      margin-top: 100px;
+      width: 58%;
+      border-bottom: 4px solid #D60000;
+      margin-bottom: 10px; }
+  .mainServicios section article {
+    margin-top: 40px; }
+    .mainServicios section article div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 400px;
+      height: 100px;
+      background-color: #530303e5;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      border-radius: 20px 0px 20px 0px;
+      box-shadow: 2px 2px 3px 3px #696969;
+      font-family: "Bebas Neue", sans-serif; }
+      .mainServicios section article div h2 {
+        color: white;
+        font-weight: lighter;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 50px; }
+      .mainServicios section article div p {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #858585; }
 
 .mainUbicacion {
   width: 100%;
   height: 850px;
   background-color: #5A0000; }
-
-.titulo-ubicacion {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Bebas Neue", sans-serif; }
-
-.titulo-ubicacion h3 {
-  color: white;
-  margin-top: 100px;
-  width: 58%;
-  font-weight: lighter;
-  border-bottom: 4px solid #D60000;
-  margin-bottom: 10px; }
-
-.parrafoUbicacion p {
-  color: white;
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-  font-family: "Bebas Neue", sans-serif; }
-
-.iframeUbicacion a {
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  background-color: #210000;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 2px solid white;
-  border-radius: 30px 30px;
-  overflow: hidden; }
+  .mainUbicacion section article div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif; }
+    .mainUbicacion section article div h3 {
+      color: white;
+      margin-top: 100px;
+      width: 58%;
+      font-weight: lighter;
+      border-bottom: 4px solid #D60000;
+      margin-bottom: 10px; }
+  .mainUbicacion .parrafoUbicacion div p {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif; }
+  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #210000;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    border-radius: 30px 30px;
+    overflow: hidden; }
 
 .main-contactos {
   width: 100%;
@@ -434,57 +386,57 @@ main {
       .main-contactos .redes-sociales a:hover {
         background-color: #8b0d0d;
         transform: scale(1.2); }
-
-form {
-  width: 300px;
-  height: 530px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 50px 50px;
-  box-shadow: 0 0 10px;
-  border-radius: 30px;
-  background-color: #5A0000;
-  margin-left: 0px; }
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  text-align: left; }
-
-form h1 {
-  color: #ffffff;
-  text-align: center;
-  font-weight: lighter; }
-
-.formulario label {
-  color: #949494;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 18px; }
-
-.formulario input, textarea {
-  border-radius: 5px;
-  border: none;
-  padding: 5px 0px; }
-
-.formulario input::placeholder, textarea::placeholder {
-  color: #770000b0;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-
-.boton-enviar {
-  background-color: #AF0000;
-  font-size: 17px;
-  font-family: "Bebas Neue", sans-serif;
-  color: white;
-  border: 1px solid white;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 10px; }
-
-.boton-enviar:hover {
-  background-color: #830505; }
+  .main-contactos form {
+    width: 300px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px 50px;
+    box-shadow: 0 0 10px;
+    border-radius: 30px;
+    background-color: #5A0000;
+    margin-left: 0px; }
+    .main-contactos form h1 {
+      color: #ffffff;
+      text-align: center;
+      font-weight: lighter; }
+    .main-contactos form div {
+      display: flex;
+      flex-direction: column;
+      text-align: left; }
+      .main-contactos form div label {
+        color: #949494;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px; }
+      .main-contactos form div input {
+        border-radius: 5px;
+        border: none;
+        padding: 5px 0px; }
+        .main-contactos form div input::placeholder {
+          color: #770000b0;
+          text-align: center;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+      .main-contactos form div textarea {
+        border-radius: 5px;
+        border: none;
+        padding: 5px 0px; }
+        .main-contactos form div textarea::placeholder {
+          color: #770000b0;
+          text-align: center;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    .main-contactos form .boton-enviar {
+      background-color: #AF0000;
+      font-size: 17px;
+      font-family: "Bebas Neue", sans-serif;
+      color: white;
+      border: 1px solid white;
+      border-radius: 20px;
+      margin-top: 20px;
+      padding: 10px; }
+      .main-contactos form .boton-enviar:hover {
+        background-color: #830505; }
 
 footer {
   width: 100%;
