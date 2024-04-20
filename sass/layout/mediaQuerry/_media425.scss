@@ -52,6 +52,26 @@
     .card-servicios{
         width: 350px;
     }
+
+    .mainUbicacion{
+        .parrafoUbicacion{
+            div{
+                p{
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+            }
+            .iframeUbicacion{
+                a{
+                    width: 250px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
     .main-contactos{
         flex-direction: column;
         .redes-sociales{

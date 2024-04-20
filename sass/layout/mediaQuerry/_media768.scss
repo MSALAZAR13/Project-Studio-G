@@ -42,6 +42,33 @@
             }
         }
     }
+
+.mainUbicacion{
+    section{
+        article{
+            .titulo-ubicacion{
+                h3{
+                    
+                }
+            }
+        }
+    }
+    .parrafoUbicacion{
+        div{
+            p{
+
+            }
+        }
+        .iframeUbicacion{
+            a{
+                &iframe{
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
+
     footer{
         .direction-footer{
             margin-top: 30px;

@@ -325,7 +325,7 @@ main {
 .mainUbicacion {
   width: 100%;
   height: 850px;
-  background-color: #5A0000; }
+  background-image: linear-gradient(to right top, #67040f, #7a0614, #8d0818, #a10b1c, #b50f20, #b20d20, #af0c21, #ac0a21, #91051d, #770318, #5e0212, #460109); }
   .mainUbicacion section article div {
     width: 100%;
     display: flex;
@@ -338,7 +338,7 @@ main {
       margin-top: 100px;
       width: 58%;
       font-weight: lighter;
-      border-bottom: 4px solid #D60000;
+      border-bottom: 4px solid #000000;
       margin-bottom: 10px; }
   .mainUbicacion .parrafoUbicacion div p {
     color: white;
@@ -490,6 +490,8 @@ footer {
       .logo-studio nav .navBar li a {
         width: 70px;
         font-size: 15px; }
+  .mainUbicacion .parrafoUbicacion .iframeUbicacion aiframe {
+    width: 600px; }
   footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
@@ -531,6 +533,14 @@ footer {
       border-radius: 10px 0px 10px; }
   .card-servicios {
     width: 350px; }
+  .mainUbicacion .parrafoUbicacion div p {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px; }
+  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+    width: 250px;
+    height: 300px; }
   .main-contactos {
     flex-direction: column; }
     .main-contactos .redes-sociales {
@@ -577,6 +587,14 @@ footer {
         padding: 1px 60px; }
   .card-servicios {
     width: 300px; }
+  .mainUbicacion .parrafoUbicacion div p {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px; }
+  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+    width: 250px;
+    height: 300px; }
   .redes-sociales {
     font-size: 30px; } }
 
@@ -615,3 +633,13 @@ footer {
     font-size: 30px; }
   .mainServicios section .card-servicios p {
     font-size: 15px; }
+
+.mainUbicacion .parrafoUbicacion div p {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px; }
+
+.mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+  width: 250px;
+  height: 300px; }
