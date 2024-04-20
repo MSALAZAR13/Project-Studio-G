@@ -3,57 +3,46 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
+.logo-studio {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 5px 25px 5px 25px;
-  align-items: center; }
-
-.logo-studio {
+  align-items: center;
   display: flex;
   position: sticky;
   top: 0;
   background-color: #ffffff; }
-
-.logo-studio div img {
-  width: 200px;
-  height: 100%; }
-
-.navBar {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 5px;
-  font-size: x-large;
-  font-weight: lighter; }
-
-.navBar li a {
-  color: #b8b8b8;
-  text-decoration: none;
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
-  font-family: "Bebas Neue", sans-serif; }
-
-.navBar li a:hover {
-  color: white; }
-
-.home, .we, .services, .location, .contacts {
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
-  background-color: #AF0000; }
-
-.we {
-  background-color: #800000; }
-
-.services {
-  background-color: #5A0000; }
-
-.location {
-  background-color: #390000; }
-
-.contacts {
-  background-color: #210000; }
+  .logo-studio div img {
+    width: 200px;
+    height: 100%; }
+  .logo-studio nav .navBar {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+    font-size: x-large;
+    font-weight: lighter; }
+    .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+      padding: 30px 15px;
+      border-radius: 20px 0px 20px;
+      background-color: #AF0000; }
+    .logo-studio nav .navBar .we {
+      background-color: #800000; }
+    .logo-studio nav .navBar .services {
+      background-color: #5A0000; }
+    .logo-studio nav .navBar .location {
+      background-color: #390000; }
+    .logo-studio nav .navBar .contacts {
+      background-color: #210000; }
+    .logo-studio nav .navBar li a {
+      color: #b8b8b8;
+      text-decoration: none;
+      padding: 30px 15px;
+      border-radius: 20px 0px 20px;
+      font-family: "Bebas Neue", sans-serif; }
+      .logo-studio nav .navBar li a:hover {
+        color: white; }
 
 body {
   width: 100%; }
@@ -62,24 +51,22 @@ main {
   background-color: #c4c4c4;
   width: 100%;
   height: 1600px; }
-
-.banner {
-  width: 100%;
-  height: 350px;
-  background-size: cover;
-  background-position: center;
-  transition: all .1s ease-in-out;
-  background-image: url(../assets/img/foto-b1.jpg);
-  animation: animation 15s infinite linear; }
-
-.banner-content {
-  width: 100%;
-  height: 100%;
-  color: rgba(255, 255, 255, 0.76);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  main .banner {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(../assets/img/foto-b1.jpg);
+    animation: animation 15s infinite linear; }
+    main .banner .banner-content {
+      width: 100%;
+      height: 100%;
+      color: rgba(255, 255, 255, 0.76);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 @keyframes animation {
   0% {
@@ -94,38 +81,49 @@ main {
     background-image: url(../assets/img/foto-b3.jpg); }
   100% {
     background-image: url(../assets/img/foto-b3.jpg); } }
-
-.flexbox1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row; }
-
-.flexbox1 article h2 {
-  display: flex;
-  flex-direction: row;
-  width: 33.33%; }
-
-.ppp {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  font-family: "Bebas Neue", sans-serif; }
-
-.ppp a {
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-align: center; }
-
-.p1 {
-  background-color: #5A0000; }
-
-.p2 {
-  background-color: #7A0000; }
-
-.p3 {
-  background-color: #960000; }
+  main .flexbox1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    main .flexbox1 .ppp {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      font-family: "Bebas Neue", sans-serif; }
+      main .flexbox1 .ppp h2 {
+        display: flex;
+        flex-direction: row;
+        width: 33.33%; }
+        main .flexbox1 .ppp h2 a {
+          width: 100%;
+          height: 100%;
+          color: white;
+          text-align: center; }
+        main .flexbox1 .ppp h2 .p1 {
+          background-color: #5A0000; }
+        main .flexbox1 .ppp h2 .p2 {
+          background-color: #7A0000; }
+        main .flexbox1 .ppp h2 .p3 {
+          background-color: #960000; }
+  main .productos-inicio div .flexbox2 {
+    width: 100%;
+    display: flex;
+    margin: 15px;
+    gap: 10px; }
+    main .productos-inicio div .flexbox2 .card .position1 {
+      width: 100%;
+      height: 450px;
+      border-radius: 30px 0px 30px;
+      box-shadow: 2px 2px 5px 5px #858585;
+      overflow: hidden; }
+      main .productos-inicio div .flexbox2 .card .position1 div img {
+        width: 100%;
+        height: 390px; }
+      main .productos-inicio div .flexbox2 .card .position1 div .card-info {
+        text-align: center; }
+        main .productos-inicio div .flexbox2 .card .position1 div .card-info h3 {
+          margin-top: 10px; }
 
 .productos-inicio {
   width: 100%;
@@ -417,28 +415,25 @@ main {
   flex-direction: row;
   background-size: cover;
   background-image: url(../assets/img/fondoBN.jpg); }
-
-.redes-sociales {
-  width: 50%;
-  height: 100%;
-  font-size: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 80px; }
-
-.redes-sociales a {
-  color: white;
-  padding: 25px;
-  background-color: #5A0000;
-  border-radius: 45%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
-  transition: all .4s ease-in-out; }
-
-.redes-sociales a:hover {
-  background-color: #8b0d0d;
-  transform: scale(1.2); }
+  .main-contactos .redes-sociales {
+    width: 50%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; }
+    .main-contactos .redes-sociales a {
+      color: white;
+      padding: 25px;
+      background-color: #5A0000;
+      border-radius: 45%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+      transition: all .4s ease-in-out; }
+      .main-contactos .redes-sociales a:hover {
+        background-color: #8b0d0d;
+        transform: scale(1.2); }
 
 form {
   width: 300px;
@@ -498,33 +493,23 @@ footer {
   display: flex;
   justify-content: center;
   justify-content: space-evenly; }
-
-footer div {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  margin-top: 50px;
-  width: 400px; }
-
-.direction-footer h4 {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  border-bottom: 5px solid #d60000;
-  font-weight: bolder; }
-
-.contacts-footer h4 {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  border-bottom: 5px solid #d60000;
-  font-weight: bolder; }
-
-.contacts-footer section {
-  margin-top: 15px; }
-
-.contacts-footer a {
-  color: white;
-  background-color: #ff000093;
-  padding: 5px;
-  border-radius: 50%; }
+  footer div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 50px;
+    width: 400px; }
+  footer h4 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #d60000;
+    font-weight: bolder; }
+  footer .contacts-footer section {
+    margin-top: 15px; }
+    footer .contacts-footer section a {
+      color: white;
+      background-color: #ff000093;
+      padding: 5px;
+      border-radius: 50%; }
 
 @media (max-width: 768px) {
   header {
@@ -538,7 +523,7 @@ footer div {
   .navBar li a {
     width: 70px;
     font-size: 20px; }
-  .home, .we, .services, .location, .contacts {
+  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
     padding: 10px 5px;
     border-radius: 12px 0px 12px; }
   .we {
@@ -571,7 +556,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 15px; }
-  .home, .we, .services, .location, .contacts {
+  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
     margin-top: 10px;
     padding: 6px 4px;
     border-radius: 10px 0px 10px; }
@@ -624,7 +609,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 30px; }
-  .home, .we, .services, .location, .contacts {
+  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
     padding: 1px 90px; }
   .we {
     padding: 1px 90px; }
@@ -652,7 +637,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 30px; }
-  .home, .we, .services, .location, .contacts {
+  .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
     padding: 1px 90px; }
   .we {
     padding: 1px 90px; }

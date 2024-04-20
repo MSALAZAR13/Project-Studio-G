@@ -6,33 +6,28 @@
     flex-direction: row;
     background-size: cover;
     background-image: url(../assets/img/fondoBN.jpg); 
-}
-
-
-
-.redes-sociales{
-    width: 50%;
-    height: 100%;
-    font-size: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-
-.redes-sociales a{
-    color: white;
-    padding: 25px;
-    background-color: #5A0000;
-    border-radius: 45%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
-    transition: all .4s ease-in-out;
-}
-
-.redes-sociales a:hover{
-    background-color:#8b0d0d;
-    transform: scale(1.2);
+    .redes-sociales{
+        width: 50%;
+        height: 100%;
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        a{
+            color: white;
+            padding: 25px;
+            background-color: #5A0000;
+            border-radius: 45%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+            transition: all .4s ease-in-out;
+            &:hover{
+                background-color:#8b0d0d;
+                transform: scale(1.2);
+            }
+        }
+    }
 }
 
 

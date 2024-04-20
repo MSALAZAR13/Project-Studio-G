@@ -1,54 +1,57 @@
 
-header{
-    @include flex(100%, flex, space-between, 5px 25px 5px 25px, center)
-}
-.logo-studio {
-    display: flex;
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-}
-
-.logo-studio div img{
-    width: 200px;
-    height: 100%;
-}
-.navBar{
-    display: flex;
-    flex-wrap: wrap;    
-    list-style: none;
-    gap: 5px;
-    font-size: x-large;
-    font-weight: lighter;
-}
-.navBar li a{
-    color: rgb(184, 184, 184);
-    text-decoration: none;
-    padding: 30px 15px;
-    border-radius: 20px 0px 20px;
-    font-family: "Bebas Neue", sans-serif;
-}
-.navBar li a:hover{
-    color: white;
-}
-.home{
-    padding: 30px 15px;
-    border-radius: 20px 0px 20px;
-    background-color: #AF0000;
-}
-.we{
-    @extend .home;
-    background-color: #800000;
-}
-.services{
-    @extend .home;
-    background-color: #5A0000;
-}
-.location{
-    @extend .home;
-    background-color: #390000;
-}
-.contacts{
-    @extend .home;
-    background-color: #210000;
-}
+.logo-studio{
+        @include flex(100%, flex, space-between, 5px 25px 5px 25px, center)
+        display: flex;
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+        div{
+            img{
+                width: 200px;
+                height: 100%;
+            }
+        }
+        nav{
+            .navBar{
+                display: flex;
+                flex-wrap: wrap;    
+                list-style: none;
+                gap: 5px;
+                font-size: x-large;
+                font-weight: lighter;
+                .home{
+                    padding: 30px 15px;
+                    border-radius: 20px 0px 20px;
+                    background-color: map-get($colores, color1);
+                }
+                .we{
+                    @extend .home;
+                    background-color: map-get($colores, color2);
+                }
+                .services{
+                    @extend .home;
+                    background-color: map-get($colores, color3);
+                }
+                .location{
+                    @extend .home;
+                    background-color: map-get($colores, color4);
+                }
+                .contacts{
+                    @extend .home;
+                    background-color: map-get($colores, color5);
+                }
+                li{
+                    a{
+                        color: rgb(184, 184, 184);
+                        text-decoration: none;
+                        padding: 30px 15px;
+                        border-radius: 20px 0px 20px;
+                        font-family: "Bebas Neue", sans-serif;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
