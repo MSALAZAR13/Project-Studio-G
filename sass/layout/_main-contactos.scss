@@ -1,0 +1,100 @@
+.main-contactos{
+    width: 100%;
+    height: 950px;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-image: url(../assets/img/fondoBN.jpg); 
+}
+
+
+
+.redes-sociales{
+    width: 50%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.redes-sociales a{
+    color: white;
+    padding: 25px;
+    background-color: #5A0000;
+    border-radius: 45%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+    transition: all .4s ease-in-out;
+}
+
+.redes-sociales a:hover{
+    background-color:#8b0d0d;
+    transform: scale(1.2);
+}
+
+
+
+form{
+    width: 300px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px 50px;
+    box-shadow: 0 0 10px;
+    border-radius: 30px;
+    background-color:#5A0000;
+    margin-left: 0px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form h1{
+    color:#ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.formulario label{
+    color: #949494;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.formulario input, textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0px;
+}
+
+.formulario input::placeholder, textarea::placeholder{
+    color: #770000b0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boton-enviar{
+    background-color: #AF0000;
+    font-size: 17px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.boton-enviar:hover{
+    background-color:#830505;
+}
+

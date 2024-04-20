@@ -1,0 +1,227 @@
+body{
+    width: 100%;
+}
+
+main{
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    height: 1600px;
+}
+
+.banner{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(../assets/img/foto-b1.jpg);
+    animation: animation 15s infinite linear;
+}
+
+.banner-content{
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.76);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes animation {
+    0%{
+        background-image: url(../assets/img/foto-b1.jpg);
+    }
+    33%{
+        background-image: url(../assets/img/foto-b1.jpg);
+    }
+    34%{
+        background-image: url(../assets/img/foto-b2.jpg);
+    }
+    66%{
+        background-image: url(../assets/img/foto-b2.jpg);
+    }
+    67%{
+        background-image: url(../assets/img/foto-b3.jpg);
+    }
+    100%{
+        background-image: url(../assets/img/foto-b3.jpg);
+    }
+}
+
+
+.flexbox1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox1 article h2{
+    display: flex;
+    flex-direction: row;
+    width: 33.33%;
+}
+
+.ppp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.ppp a{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.p1{
+    background-color: #5A0000;
+
+}
+
+.p2{
+    background-color: #7A0000;
+}
+
+.p3{
+    background-color: #960000;
+}
+
+.productos-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox2{
+    width: 100%;
+    display: flex;
+    margin: 15px;
+    gap: 10px;
+
+}
+
+.card{
+    width: 100%;
+    height: 450px;
+    border-radius: 30px 0px 30px;
+    box-shadow: 2px 2px 5px 5px #858585;
+    overflow: hidden;
+
+}
+.card div img{
+    width: 100%;
+    height: 390px;
+
+}
+.card .card-info{
+    text-align: center;
+}
+.card-info h3{
+    margin-top: 10px;
+}
+.flexbox3{
+    width: 100%;
+    display: flex;
+    margin: 15px;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 440px;
+    margin-top: 15PX;
+    border-radius: 30px 0px 30px;
+    box-shadow: 2px 2px 5px 5px #858585;
+    overflow: hidden;
+    background-color: #b41b1bad;
+}
+.card div img{
+    width: 100%;
+    height: 390px;
+}
+.card .card-info{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-align: center;
+}
+.card .card-info h3{
+    font-weight: lighter;
+
+}
+
+.position4 img{
+    object-fit: cover;
+}
+
+.position5 img{
+    object-fit: cover;
+}
+
+.parrafoProductos{
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    padding: 50px 35px;
+    font-size: x-large;
+}
+
+.card-promos{
+    width: 600px;
+    height: 910px;
+    margin-top: 28px;
+    border-radius: 30px 30px;
+    overflow: hidden;
+}
+.card-promos div img{
+    width: 100%;
+    height: 100%;
+}
+.section-promos{
+    margin-right: 20px;
+}
+
+.parrafoPromos{
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    padding: 50px 35px;
+    font-size: x-large;
+}
+
+.parrafoPromos p{
+    margin: auto;
+}
+
+.card-portfolio{
+    width: 600px;
+    height: 910px;
+    margin-top: 28px;
+    border-radius: 30px 30px;
+    overflow: hidden;
+}
+.card-portfolio div img{
+    width: 100%;
+    height: 1000px;
+}
+.section-portfolio{
+    margin-right: 15px;
+}
+
+.section-portfolio img{
+    height: 800px;
+}
+
+.parrafoPortfolio{
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    padding: 50px 35px;
+    font-size: x-large;
+}
+
+.parrafoPortfolio p{
+    margin: auto;
+}

@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    .logo-studio div img{
+        width: 100px;
+    }
+    .navBar{
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .navBar li a{
+        width: 70px;
+        font-size: 20px;
+    }
+
+    .home{
+        padding: 10px 5px;
+        border-radius: 12px 0px 12px;
+    }
+    .we{
+        padding: 10px 5px;
+        border-radius: 12px 0px 12px;
+    }
+    .services{
+        padding: 10px 5px;
+        border-radius: 12px 0px 12px;
+    }
+    .location{
+        padding: 10px 5px;
+        border-radius: 12px 0px 12px;
+    }
+    .contacts{
+        padding: 10px 5px;
+        border-radius: 12px 0px 12px;
+    }
+    
+    .direction-footer{
+        margin-top: 30px;
+        width: 30%;
+    }
+    .contacts-footer{
+        margin-top: 30px;
+        width: 30%;
+    }
+
+}

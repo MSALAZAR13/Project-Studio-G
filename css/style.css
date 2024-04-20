@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header {
   width: 100%;
   display: flex;
@@ -33,29 +38,21 @@ header {
 .navBar li a:hover {
   color: white; }
 
-.home {
+.home, .we, .services, .location, .contacts {
   padding: 30px 15px;
   border-radius: 20px 0px 20px;
   background-color: #AF0000; }
 
 .we {
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
   background-color: #800000; }
 
 .services {
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
   background-color: #5A0000; }
 
 .location {
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
   background-color: #390000; }
 
 .contacts {
-  padding: 30px 15px;
-  border-radius: 20px 0px 20px;
   background-color: #210000; }
 
 body {
@@ -541,7 +538,7 @@ footer div {
   .navBar li a {
     width: 70px;
     font-size: 20px; }
-  .home {
+  .home, .we, .services, .location, .contacts {
     padding: 10px 5px;
     border-radius: 12px 0px 12px; }
   .we {
@@ -574,7 +571,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 15px; }
-  .home {
+  .home, .we, .services, .location, .contacts {
     margin-top: 10px;
     padding: 6px 4px;
     border-radius: 10px 0px 10px; }
@@ -627,7 +624,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 30px; }
-  .home {
+  .home, .we, .services, .location, .contacts {
     padding: 1px 90px; }
   .we {
     padding: 1px 90px; }
@@ -655,7 +652,7 @@ footer div {
   .navBar li a {
     width: 100%;
     font-size: 30px; }
-  .home {
+  .home, .we, .services, .location, .contacts {
     padding: 1px 90px; }
   .we {
     padding: 1px 90px; }

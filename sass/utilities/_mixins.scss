@@ -1,0 +1,15 @@
+@mixin flex($width, $display, $justify, $padding, $align){
+    width: $width;
+    display: flex;
+    justify-content: $justify;
+    padding: $padding;
+    align-items: $align;
+}
+
+@mixin grid($display, $start, $end, $align, $justify){
+    display: $display;
+    grid-column-start: $start;
+    grid-column-end: $end;
+    align-items: $align;
+    justify-items: $justify;
+}
