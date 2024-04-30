@@ -10,9 +10,12 @@
             justify-content: center;
             font-family: "Bebas Neue", sans-serif;
             h1{
+                color: white;
+                font-size: 25px;
+                font-weight: lighter;
                 margin-top: 100px;
                 width: 58%;
-                border-bottom: 4px solid #D60000;
+                border-bottom: 4px solid #000000;
                 margin-bottom: 10px;
             }
         }
@@ -29,7 +32,7 @@
                 margin-bottom: 10px;
                 margin-top: 10px;
                 border-radius: 20px 0px 20px 0px;
-                box-shadow: 2px 2px 3px 3px #696969;
+                box-shadow: 2px 2px 3px 3px #b14141;
                 font-family: "Bebas Neue", sans-serif;
                 h2{
                     color: white;
