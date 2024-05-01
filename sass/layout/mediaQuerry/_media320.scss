@@ -59,6 +59,8 @@
 
 .mainUbicacion{
     .parrafoUbicacion{
+        width: 80%;
+        margin: auto;
         div{
             p{
                 width: 80%;
@@ -69,10 +71,9 @@
         }
         .iframeUbicacion{
             a{
-                width: 250px;
-                height: 300px;
+                width: 80%;
+                height: 50%;
             }
         }
     }
 }
-

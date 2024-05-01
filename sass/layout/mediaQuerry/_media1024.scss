@@ -1,0 +1,43 @@
+@media (max-width:1024px){
+    main{
+        .productos-inicio{
+            width: 100%;
+            .primera-parte{
+                .flexbox2{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+            .segunda-parte{
+                div{
+                    .section-promos1{
+                        article{
+                            width: 400px;
+                            height: 605px;
+                        }
+                    }
+                    .section-promos2{
+                        article{
+                            width: 400px;
+                            height: 605px;
+                            div{
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .tercera-parte{
+                .section-portfolio{
+                    article{
+                        width: 890px;
+                        height: 500px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -181,7 +181,7 @@ main {
         margin: auto; }
         main .segunda-parte .section-promos2 .card-promos2 div img {
           width: 100%;
-          height: 1000px; }
+          height: 100%; }
     main .segunda-parte .parrafoPromos2 {
       width: 100%;
       font-family: "Bebas Neue", sans-serif;
@@ -301,7 +301,7 @@ main {
       border-bottom: 4px solid #000000;
       margin-bottom: 10px; }
   .mainServicios section .p-parrafo p {
-    color: #fd4949;
+    color: #fd6262;
     margin: 40px 0px 20px 0px;
     font-size: 20px; }
   .mainServicios section article {
@@ -336,7 +336,7 @@ main {
 
 .mainUbicacion {
   width: 100%;
-  height: 850px;
+  height: 100%;
   background-image: linear-gradient(to right top, #67040f, #7a0614, #8d0818, #a10b1c, #b50f20, #b20d20, #af0c21, #ac0a21, #91051d, #770318, #5e0212, #460109); }
   .mainUbicacion section article div {
     width: 100%;
@@ -353,15 +353,19 @@ main {
       font-size: 25px;
       border-bottom: 4px solid #000000;
       margin-bottom: 10px; }
-  .mainUbicacion .parrafoUbicacion div p {
-    color: white;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-family: "Bebas Neue", sans-serif; }
+  .mainUbicacion .parrafoUbicacion div {
+    margin-top: 50px; }
+    .mainUbicacion .parrafoUbicacion div p {
+      color: #fd6262;
+      font-size: 20px;
+      width: 100%;
+      text-align: start;
+      margin-top: 40px;
+      font-family: "Bebas Neue", sans-serif; }
+  .mainUbicacion .parrafoUbicacion div:last-child p {
+    text-align: end;
+    padding-bottom: 50px; }
   .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-    width: 600px;
     display: flex;
     justify-content: center;
     background-color: #210000;
@@ -371,6 +375,8 @@ main {
     border: 2px solid white;
     border-radius: 30px 30px;
     overflow: hidden; }
+    .mainUbicacion .parrafoUbicacion .iframeUbicacion a iframe {
+      width: 100%; }
 
 .main-contactos {
   width: 100%;
@@ -476,6 +482,25 @@ footer {
       padding: 5px;
       border-radius: 50%; }
 
+@media (max-width: 1024px) {
+  main .productos-inicio {
+    width: 100%; }
+    main .productos-inicio .primera-parte .flexbox2 {
+      display: flex;
+      flex-wrap: wrap; }
+    main .productos-inicio .segunda-parte div .section-promos1 article {
+      width: 400px;
+      height: 605px; }
+    main .productos-inicio .segunda-parte div .section-promos2 article {
+      width: 400px;
+      height: 605px; }
+      main .productos-inicio .segunda-parte div .section-promos2 article div img {
+        width: 100%;
+        height: 100%; }
+    main .productos-inicio .tercera-parte .section-portfolio article {
+      width: 890px;
+      height: 500px; } }
+
 @media (max-width: 768px) {
   .logo-studio {
     width: 100%;
@@ -503,8 +528,12 @@ footer {
       .logo-studio nav .navBar li a {
         width: 70px;
         font-size: 15px; }
-  .mainUbicacion .parrafoUbicacion .iframeUbicacion aiframe {
-    width: 600px; }
+  main .productos-inicio .segunda-parte {
+    display: flex;
+    flex-wrap: wrap; }
+  main .productos-inicio .tercera-parte .section-portfolio article {
+    width: 650px;
+    height: 300px; }
   footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
@@ -546,6 +575,12 @@ footer {
       border-radius: 10px 0px 10px; }
   .card-servicios {
     width: 350px; }
+  main .productos-inicio .tercera-parte .section-portfolio article {
+    width: 400px;
+    height: 250px; }
+    main .productos-inicio .tercera-parte .section-portfolio article div img {
+      width: 400px;
+      height: 300px; }
   .mainUbicacion .parrafoUbicacion div p {
     width: 80%;
     margin: auto;
@@ -553,7 +588,7 @@ footer {
     font-size: 15px; }
   .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
     width: 250px;
-    height: 300px; }
+    height: 250px; }
   .main-contactos {
     flex-direction: column; }
     .main-contactos .redes-sociales {
@@ -600,14 +635,6 @@ footer {
         padding: 1px 60px; }
   .card-servicios {
     width: 300px; }
-  .mainUbicacion .parrafoUbicacion div p {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 15px; }
-  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-    width: 250px;
-    height: 300px; }
   .redes-sociales {
     font-size: 30px; } }
 
@@ -647,12 +674,14 @@ footer {
   .mainServicios section .card-servicios p {
     font-size: 15px; }
 
-.mainUbicacion .parrafoUbicacion div p {
+.mainUbicacion .parrafoUbicacion {
   width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  font-size: 15px; }
-
-.mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-  width: 250px;
-  height: 300px; }
+  margin: auto; }
+  .mainUbicacion .parrafoUbicacion div p {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px; }
+  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+    width: 80%;
+    height: 50%; }

@@ -1,6 +1,6 @@
 .mainUbicacion{
     width: 100%;
-    height: 850px;
+    height: 100%;
     background-image: linear-gradient(to right top, #67040f, #7a0614, #8d0818, #a10b1c, #b50f20, #b20d20, #af0c21, #ac0a21, #91051d, #770318, #5e0212, #460109);
     section{
         article{
@@ -25,18 +25,24 @@
     }
     .parrafoUbicacion{
         div{
+            margin-top: 50px;
             p{
-                color: white;
+                color: rgb(253, 98, 98);
                 font-size: 20px;
                 width: 100%;
-                text-align: center;
-                margin-top: 20px;
+                text-align: start;
+                margin-top: 40px;
                 font-family: "Bebas Neue", sans-serif;
             }
         }
+        div:last-child{
+            p{
+                text-align: end;
+                padding-bottom: 50px;
+            }
+        }
         .iframeUbicacion{
-            a{
-                width: 600px;
+            a{  
                 display: flex;
                 justify-content: center;
                 background-color: #210000;
@@ -46,6 +52,9 @@
                 border: 2px solid rgb(255, 255, 255);
                 border-radius: 30px 30px;
                 overflow: hidden;
+                iframe{
+                    width: 100%;
+                }
             }
         }
     }

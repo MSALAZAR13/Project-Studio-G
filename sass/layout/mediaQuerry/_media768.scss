@@ -43,31 +43,22 @@
         }
     }
 
-.mainUbicacion{
-    section{
-        article{
-            .titulo-ubicacion{
-                h3{
-                    
+    main{
+        .productos-inicio{
+            .segunda-parte{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .tercera-parte{
+                .section-portfolio{
+                    article{
+                        width: 650px;
+                        height: 300px;
+                    }
                 }
             }
         }
     }
-    .parrafoUbicacion{
-        div{
-            p{
-
-            }
-        }
-        .iframeUbicacion{
-            a{
-                &iframe{
-                    width: 600px;
-                }
-            }
-        }
-    }
-}
 
     footer{
         .direction-footer{
