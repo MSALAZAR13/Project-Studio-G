@@ -37,7 +37,68 @@
             }
         }
     }
-
+    
+    main{
+        .productos-inicio{
+            .primera-parte{
+                section{
+                    .parrafoProductos{
+                        p{
+                            width: 80%;
+                            font-size: 15px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .segunda-parte{
+                div{
+                    .section-promos1{
+                        article{
+                            width: 290px;
+                            height: 450px;
+                        }
+                    }
+                    .parrafoPromos1{
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    .section-promos2{
+                        article{
+                            width: 290px;
+                            height: 450px;
+                        }
+                    }
+                    .parrafoPromos2{
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .tercera-parte{
+                .section-portfolio{
+                    article{
+                        width: 290px;
+                        height: 250px;
+                        div{
+                            img{
+                                width: 290px;
+                                height: 250px;
+                            }
+                        }
+                    }
+                }
+                .parrafoPortfolio{
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
     .card-servicios{
         width: 300px;
     }

@@ -49,27 +49,81 @@
         }
     }
 
-    .card-servicios{
-        width: 350px;
-    }
 
     main{
         .productos-inicio{
-            .tercera-parte{
-                .section-portfolio{
-                    article{
-                        width: 400px;
-                        height: 250px;
-                        div{
-                            img{
-                                width: 400px;
-                                height: 300px;
-                            }
+            .primera-parte{
+                section{
+                    .parrafoProductos{
+                        p{
+                            width: 80%;
+                            font-size: 18px;
+                            text-align: center;
                         }
                     }
                 }
             }
+            .segunda-parte{
+                div{
+                    .section-promos1{
+                        article{
+                            width: 350px;
+                            height: 545px;
+                        }
+                    }
+                    .parrafoPromos1{
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    .section-promos2{
+                        article{
+                            width: 350px;
+                            height: 545px;
+                        }
+                    }
+                    .parrafoPromos2{
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .tercera-parte{
+                .section-portfolio{
+                    article{
+                        width: 350px;
+                        height: 250px;
+                        div{
+                            img{
+                                width: 350px;
+                                height: 290px;
+                            }
+                        }
+                    }
+                }
+                .parrafoPortfolio{
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
         }
+    }
+
+    .mainServicios{
+        section{
+            .p-parrafo{
+                width: 70%;
+                margin: auto;
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .card-servicios{
+        width: 350px;
     }
 
     .mainUbicacion{

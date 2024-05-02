@@ -1,4 +1,48 @@
 @media (max-width:1024px){
+    .logo-studio{
+        width: 100%;
+        height: 70px;
+        div{
+            a{
+                img{
+                    width: 100px;
+                }
+            }
+        }
+        nav{
+            .navBar{
+                flex-wrap: nowrap;
+                width: 100%;
+                .home{
+                    padding: 8px 5px;
+                    border-radius: 12px 0px 12px;
+                }
+                .we{
+                    padding: 8px 5px;
+                    border-radius: 12px 0px 12px;
+                }
+                .services{
+                    padding: 8px 5px;
+                    border-radius: 12px 0px 12px;
+                }
+                .location{
+                    padding: 8px 5px;
+                    border-radius: 12px 0px 12px;
+                }
+                .contacts{
+                    padding: 8px 5px;
+                    border-radius: 12px 0px 12px;
+                }
+                li{
+                    a{
+                        width: 80px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
     main{
         .productos-inicio{
             width: 100%;

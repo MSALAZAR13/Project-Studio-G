@@ -284,7 +284,7 @@ main {
 
 .mainServicios {
   width: 100%;
-  height: 800px; }
+  height: 100%; }
   .mainServicios section div {
     width: 100%;
     display: flex;
@@ -307,7 +307,7 @@ main {
   .mainServicios section article {
     width: 100%;
     margin-top: 30px;
-    margin-bottom: 40px; }
+    padding-bottom: 100px; }
     .mainServicios section article div {
       display: flex;
       flex-direction: column;
@@ -316,7 +316,6 @@ main {
       height: 100px;
       background-color: #530303e5;
       margin: auto;
-      margin-bottom: 10px;
       margin-top: 10px;
       border-radius: 20px 0px 20px 0px;
       box-shadow: 2px 2px 3px 3px #b14141;
@@ -483,6 +482,32 @@ footer {
       border-radius: 50%; }
 
 @media (max-width: 1024px) {
+  .logo-studio {
+    width: 100%;
+    height: 70px; }
+    .logo-studio div a img {
+      width: 100px; }
+    .logo-studio nav .navBar {
+      flex-wrap: nowrap;
+      width: 100%; }
+      .logo-studio nav .navBar .home, .logo-studio nav .navBar .we, .logo-studio nav .navBar .services, .logo-studio nav .navBar .location, .logo-studio nav .navBar .contacts {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .we {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .services {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .location {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar .contacts {
+        padding: 8px 5px;
+        border-radius: 12px 0px 12px; }
+      .logo-studio nav .navBar li a {
+        width: 80px;
+        font-size: 18px; }
   main .productos-inicio {
     width: 100%; }
     main .productos-inicio .primera-parte .flexbox2 {
@@ -573,14 +598,35 @@ footer {
       margin-top: 10px;
       padding: 6px 1px;
       border-radius: 10px 0px 10px; }
-  .card-servicios {
-    width: 350px; }
+  main .productos-inicio .primera-parte section .parrafoProductos p {
+    width: 80%;
+    font-size: 18px;
+    text-align: center; }
+  main .productos-inicio .segunda-parte div .section-promos1 article {
+    width: 350px;
+    height: 545px; }
+  main .productos-inicio .segunda-parte div .parrafoPromos1 p {
+    font-size: 18px; }
+  main .productos-inicio .segunda-parte div .section-promos2 article {
+    width: 350px;
+    height: 545px; }
+  main .productos-inicio .segunda-parte div .parrafoPromos2 p {
+    font-size: 18px; }
   main .productos-inicio .tercera-parte .section-portfolio article {
-    width: 400px;
+    width: 350px;
     height: 250px; }
     main .productos-inicio .tercera-parte .section-portfolio article div img {
-      width: 400px;
-      height: 300px; }
+      width: 350px;
+      height: 290px; }
+  main .productos-inicio .tercera-parte .parrafoPortfolio p {
+    font-size: 18px; }
+  .mainServicios section .p-parrafo {
+    width: 70%;
+    margin: auto; }
+    .mainServicios section .p-parrafo p {
+      text-align: center; }
+  .card-servicios {
+    width: 350px; }
   .mainUbicacion .parrafoUbicacion div p {
     width: 80%;
     margin: auto;
@@ -633,6 +679,28 @@ footer {
         padding: 1px 60px; }
       .logo-studio nav .navBar .contacts {
         padding: 1px 60px; }
+  main .productos-inicio .primera-parte section .parrafoProductos p {
+    width: 80%;
+    font-size: 15px;
+    text-align: center; }
+  main .productos-inicio .segunda-parte div .section-promos1 article {
+    width: 290px;
+    height: 450px; }
+  main .productos-inicio .segunda-parte div .parrafoPromos1 p {
+    font-size: 15px; }
+  main .productos-inicio .segunda-parte div .section-promos2 article {
+    width: 290px;
+    height: 450px; }
+  main .productos-inicio .segunda-parte div .parrafoPromos2 p {
+    font-size: 15px; }
+  main .productos-inicio .tercera-parte .section-portfolio article {
+    width: 290px;
+    height: 250px; }
+    main .productos-inicio .tercera-parte .section-portfolio article div img {
+      width: 290px;
+      height: 250px; }
+  main .productos-inicio .tercera-parte .parrafoPortfolio p {
+    font-size: 15px; }
   .card-servicios {
     width: 300px; }
   .redes-sociales {
