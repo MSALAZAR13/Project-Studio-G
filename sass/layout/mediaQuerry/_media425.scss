@@ -53,6 +53,17 @@
     main{
         .productos-inicio{
             .primera-parte{
+                .flexbox2{
+                    .card{
+                        width: 150px;
+                        height: 320px;
+                        div{
+                            img{
+                                height: 275px;
+                            }
+                        }
+                    }
+                }
                 section{
                     .parrafoProductos{
                         p{
