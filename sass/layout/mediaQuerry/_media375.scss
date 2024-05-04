@@ -99,6 +99,18 @@
         }
     }
     
+    .body-size{
+        .main-container{
+            main{
+                img{
+                    @include grid(grid, 2, 4, center, center)
+                    width: 250px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+
     .card-servicios{
         width: 300px;
     }

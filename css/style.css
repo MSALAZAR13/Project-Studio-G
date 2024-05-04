@@ -196,7 +196,7 @@ main {
     height: 100%; }
     main .tercera-parte .section-portfolio .card-portfolio {
       width: 1300px;
-      height: 600px;
+      height: 700px;
       margin-top: 30px;
       margin: 30px auto 0px auto;
       border-radius: 30px 30px;
@@ -246,7 +246,7 @@ main {
       grid-column-end: 8;
       text-align: start;
       align-items: end;
-      border-bottom: 5px solid #d60000;
+      border-bottom: 5px solid black;
       margin-bottom: 100px;
       font-family: "Bebas Neue", sans-serif;
       font-weight: lighter;
@@ -539,7 +539,16 @@ footer {
     align-items: center; }
     .body-size .main-container main a img {
       width: 400px;
-      height: 150px; } }
+      height: 150px; }
+  .body-size .main-container main h1 {
+    grid-column-start: 3;
+    grid-column-end: 7; }
+  .body-size .main-container main P {
+    grid-column-start: 3;
+    grid-column-end: 7; }
+  .body-size .main-container main div {
+    grid-column-start: 3;
+    grid-column-end: 7; } }
 
 @media (max-width: 768px) {
   .logo-studio {
@@ -573,7 +582,16 @@ footer {
     flex-wrap: wrap; }
   main .productos-inicio .tercera-parte .section-portfolio article {
     width: 650px;
-    height: 300px; }
+    height: 350px; }
+  .body-size .main-container main {
+    grid-template-rows: repeat(7, 0.5fr); }
+    .body-size .main-container main div {
+      margin-top: 30px; }
+    .body-size .main-container main img {
+      grid-row-start: 5;
+      grid-row-end: 8;
+      width: 550px;
+      height: 750px; }
   footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
@@ -637,9 +655,47 @@ footer {
     height: 250px; }
     main .productos-inicio .tercera-parte .section-portfolio article div img {
       width: 350px;
-      height: 290px; }
+      height: 250px; }
   main .productos-inicio .tercera-parte .parrafoPortfolio p {
     font-size: 18px; }
+  .body-size .main-container main {
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(7, 0.3fr); }
+    .body-size .main-container main a {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      align-items: center;
+      justify-items: center; }
+      .body-size .main-container main a img {
+        width: 300px;
+        height: 130px; }
+    .body-size .main-container main h1 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      font-size: 18px; }
+    .body-size .main-container main P {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      align-items: center;
+      justify-items: center;
+      font-size: 15px; }
+    .body-size .main-container main div {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      align-items: center;
+      justify-items: center;
+      margin-top: 30px; }
+    .body-size .main-container main img {
+      display: grid;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      align-items: center;
+      justify-items: center;
+      width: 350px;
+      height: 450px; }
   .mainServicios section .p-parrafo {
     width: 70%;
     margin: auto; }
@@ -721,6 +777,14 @@ footer {
       height: 250px; }
   main .productos-inicio .tercera-parte .parrafoPortfolio p {
     font-size: 15px; }
+  .body-size .main-container main img {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    align-items: center;
+    justify-items: center;
+    width: 250px;
+    height: 350px; }
   .card-servicios {
     width: 300px; }
   .redes-sociales {

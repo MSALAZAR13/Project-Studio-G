@@ -97,6 +97,20 @@
                         height: 150px;
                     }
                 }
+                h1{
+                    grid-column-start: 3;
+                    grid-column-end: 7;
+                }
+                P{
+                    grid-column-start: 3;
+                    grid-column-end: 7;
+                }
+                div{
+                    grid-column-start: 3;
+                    grid-column-end: 7;
+                    p{
+                    }
+                }
             }
         }
     }
