@@ -349,35 +349,38 @@ main {
     .mainUbicacion section article div h3 {
       color: white;
       margin-top: 100px;
-      width: 58%;
+      width: 60%;
       font-weight: lighter;
       font-size: 25px;
       border-bottom: 4px solid #000000;
       margin-bottom: 10px; }
-  .mainUbicacion .parrafoUbicacion div {
-    margin-top: 50px; }
-    .mainUbicacion .parrafoUbicacion div p {
-      color: #fd6262;
-      font-size: 20px;
-      width: 100%;
-      text-align: start;
-      margin-top: 40px;
-      font-family: "Bebas Neue", sans-serif; }
-  .mainUbicacion .parrafoUbicacion div:last-child p {
-    text-align: end;
-    padding-bottom: 50px; }
-  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-    display: flex;
-    justify-content: center;
-    background-color: #210000;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 2px solid white;
-    border-radius: 30px 30px;
-    overflow: hidden; }
-    .mainUbicacion .parrafoUbicacion .iframeUbicacion a iframe {
-      width: 100%; }
+  .mainUbicacion .parrafoUbicacion {
+    width: 60%;
+    margin: auto; }
+    .mainUbicacion .parrafoUbicacion div {
+      margin-top: 50px; }
+      .mainUbicacion .parrafoUbicacion div p {
+        color: #fd6262;
+        font-size: 20px;
+        width: 100%;
+        text-align: start;
+        margin-top: 40px;
+        font-family: "Bebas Neue", sans-serif; }
+    .mainUbicacion .parrafoUbicacion div:last-child p {
+      text-align: end;
+      padding-bottom: 50px; }
+    .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+      display: flex;
+      justify-content: center;
+      background-color: #210000;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border: 2px solid white;
+      border-radius: 30px 30px;
+      overflow: hidden; }
+      .mainUbicacion .parrafoUbicacion .iframeUbicacion a iframe {
+        width: 100%; }
 
 .main-contactos {
   width: 100%;
@@ -458,10 +461,21 @@ main {
       .main-contactos form .boton-enviar:hover {
         background-color: #830505; }
 
-.main-promos {
+.body-promos .logo-studio {
+  position: absolute; }
+
+.body-promos .main-promos {
   width: 100%;
   height: 100%; }
-  .main-promos .container__slider {
+  .body-promos .main-promos h1 {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 200px; }
+  .body-promos .main-promos .container__slider {
     width: 90%;
     height: 1200px;
     margin: auto;
@@ -469,7 +483,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 100px 10px; }
-    .main-promos .container__slider .container-cards {
+    .body-promos .main-promos .container__slider .container-cards {
       width: 100%;
       max-width: 800px;
       height: 100%;
@@ -478,13 +492,13 @@ main {
       display: flex;
       justify-content: center;
       align-items: center; }
-      .main-promos .container__slider .container-cards input[type=radio] {
+      .body-promos .main-promos .container__slider .container-cards input[type=radio] {
         display: none; }
-      .main-promos .container__slider .container-cards .cards {
+      .body-promos .main-promos .container__slider .container-cards .cards {
         position: relative;
         width: 100%;
         height: 100%; }
-        .main-promos .container__slider .container-cards .cards .card {
+        .body-promos .main-promos .container__slider .container-cards .cards .card {
           position: absolute;
           width: 60%;
           height: 900px;
@@ -493,26 +507,27 @@ main {
           margin: auto;
           cursor: pointer;
           transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); }
-          .main-promos .container__slider .container-cards .cards .card img {
+          .body-promos .main-promos .container__slider .container-cards .cards .card img {
             width: 100%;
             height: 100%;
-            border-radius: 10px;
-            object-fit: cover; }
-  .main-promos #item-2:checked ~ .cards #selector-1,
-  .main-promos #item-1:checked ~ .cards #selector-3,
-  .main-promos #item-3:checked ~ .cards #selector-2 {
+            border-radius: 30px;
+            object-fit: cover;
+            box-shadow: 0px 2px 5px 6px #e0e0e0; }
+  .body-promos .main-promos #item-2:checked ~ .cards #selector-1,
+  .body-promos .main-promos #item-1:checked ~ .cards #selector-3,
+  .body-promos .main-promos #item-3:checked ~ .cards #selector-2 {
     transform: translateX(-60%) scale(0.8);
     opacity: 0.6;
     z-index: 0; }
-  .main-promos #item-3:checked ~ .cards #selector-1,
-  .main-promos #item-1:checked ~ .cards #selector-2,
-  .main-promos #item-2:checked ~ .cards #selector-3 {
+  .body-promos .main-promos #item-3:checked ~ .cards #selector-1,
+  .body-promos .main-promos #item-1:checked ~ .cards #selector-2,
+  .body-promos .main-promos #item-2:checked ~ .cards #selector-3 {
     transform: translateX(60%) scale(0.8);
     opacity: 0.6;
     z-index: 0; }
-  .main-promos #item-1:checked ~ .cards #selector-1,
-  .main-promos #item-2:checked ~ .cards #selector-2,
-  .main-promos #item-3:checked ~ .cards #selector-3 {
+  .body-promos .main-promos #item-1:checked ~ .cards #selector-1,
+  .body-promos .main-promos #item-2:checked ~ .cards #selector-2,
+  .body-promos .main-promos #item-3:checked ~ .cards #selector-3 {
     transform: translateX(0) scale(1);
     z-index: 1; }
 
@@ -607,7 +622,30 @@ footer {
     grid-column-end: 7; }
   .body-size .main-container main div {
     grid-column-start: 3;
-    grid-column-end: 7; } }
+    grid-column-end: 7; }
+  .body-promos .main-promos h1 {
+    font-size: 40px;
+    padding-top: 150px; }
+  .body-promos .main-promos .container__slider {
+    width: 80%;
+    height: 1100px;
+    padding: 100px 40px; }
+    .body-promos .main-promos .container__slider .container-cards {
+      width: 100%;
+      max-width: 800px;
+      height: 100%;
+      max-height: 1000px; }
+      .body-promos .main-promos .container__slider .container-cards .cards {
+        position: relative;
+        width: 100%;
+        height: 100%; }
+        .body-promos .main-promos .container__slider .container-cards .cards .card {
+          position: absolute;
+          width: 60%;
+          height: 800px;
+          margin: auto;
+          cursor: pointer;
+          transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); } }
 
 @media (max-width: 768px) {
   .logo-studio {
@@ -651,6 +689,43 @@ footer {
       grid-row-end: 8;
       width: 550px;
       height: 750px; }
+  .mainServicios section .card-servicios {
+    width: 280px;
+    height: 70px; }
+    .mainServicios section .card-servicios h2 {
+      margin-top: 5px;
+      font-size: 30px; }
+    .mainServicios section .card-servicios p {
+      font-size: 15px; }
+  .mainUbicacion .parrafoUbicacion {
+    width: 80%;
+    margin: auto; }
+    .mainUbicacion .parrafoUbicacion div p {
+      width: 80%;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 15px; }
+    .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+      width: 80%;
+      height: 100%; }
+  .body-promos .main-promos h1 {
+    font-size: 35px;
+    padding-top: 130px; }
+  .body-promos .main-promos .container__slider {
+    width: 80%;
+    height: 850px;
+    padding: 100px 40px; }
+    .body-promos .main-promos .container__slider .container-cards {
+      width: 100%;
+      height: 100%; }
+      .body-promos .main-promos .container__slider .container-cards .cards {
+        width: 100%;
+        height: 100%; }
+        .body-promos .main-promos .container__slider .container-cards .cards .card {
+          width: 63%;
+          height: 600px; }
+          .body-promos .main-promos .container__slider .container-cards .cards .card img {
+            object-fit: cover; }
   footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
@@ -663,7 +738,6 @@ footer {
     height: 95px;
     flex-direction: column;
     padding: 10px;
-    margin-top: 10px;
     margin-bottom: 10px; }
     .logo-studio div a img {
       height: 22px; }
@@ -762,14 +836,19 @@ footer {
       text-align: center; }
   .card-servicios {
     width: 350px; }
-  .mainUbicacion .parrafoUbicacion div p {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 15px; }
-  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-    width: 250px;
-    height: 250px; }
+  .mainUbicacion .parrafoUbicacion {
+    width: 85%; }
+    .mainUbicacion .parrafoUbicacion div p {
+      width: 80%;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 15px; }
+    .mainUbicacion .parrafoUbicacion .iframeUbicacion {
+      width: 85%;
+      margin: auto; }
+      .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
+        width: 100%;
+        height: 100%; }
   .main-contactos {
     flex-direction: column; }
     .main-contactos .redes-sociales {
@@ -783,6 +862,25 @@ footer {
         font-size: 30px; }
     .main-contactos form {
       margin: auto; }
+  .body-promos .main-promos h1 {
+    font-size: 25px;
+    padding-top: 130px; }
+  .body-promos .main-promos .container__slider {
+    width: 80%;
+    height: 550px;
+    padding: 50px 40px; }
+    .body-promos .main-promos .container__slider .container-cards {
+      width: 100%;
+      height: 100%; }
+      .body-promos .main-promos .container__slider .container-cards .cards {
+        width: 100%;
+        height: 100%; }
+        .body-promos .main-promos .container__slider .container-cards .cards .card {
+          width: 75%;
+          height: 350px; }
+          .body-promos .main-promos .container__slider .container-cards .cards .card img {
+            border-radius: 15px;
+            object-fit: cover; }
   footer {
     height: 150px; }
     footer .direction-footer {
@@ -847,7 +945,17 @@ footer {
   .card-servicios {
     width: 300px; }
   .redes-sociales {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .body-promos .main-promos h1 {
+    font-size: 25px;
+    padding-top: 310px; }
+  .body-promos .main-promos .container__slider {
+    height: 450px; }
+    .body-promos .main-promos .container__slider .container-cards .cards .card {
+      width: 75%;
+      height: 295px; }
+      .body-promos .main-promos .container__slider .container-cards .cards .card img {
+        border-radius: 15px; } }
 
 @media (max-width: 320px) {
   .logo-studio nav .navBar {
@@ -867,25 +975,15 @@ footer {
     .logo-studio nav .navBar .location {
       padding: 1px 60px; }
     .logo-studio nav .navBar .contacts {
-      padding: 1px 60px; } }
-
-.mainServicios section .card-servicios {
-  width: 280px;
-  height: 70px; }
-  .mainServicios section .card-servicios h2 {
-    margin-top: 5px;
-    font-size: 30px; }
-  .mainServicios section .card-servicios p {
-    font-size: 15px; }
-
-.mainUbicacion .parrafoUbicacion {
-  width: 80%;
-  margin: auto; }
-  .mainUbicacion .parrafoUbicacion div p {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 15px; }
-  .mainUbicacion .parrafoUbicacion .iframeUbicacion a {
-    width: 80%;
-    height: 50%; }
+      padding: 1px 60px; }
+  .mainServicios section .card-servicios {
+    width: 280px;
+    height: 70px; }
+    .mainServicios section .card-servicios h2 {
+      margin-top: 5px;
+      font-size: 30px; }
+    .mainServicios section .card-servicios p {
+      font-size: 15px; }
+  .body-promos .main-promos .container__slider .container-cards .cards .card {
+    width: 75%;
+    height: 250px; } }

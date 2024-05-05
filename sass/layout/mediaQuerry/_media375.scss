@@ -115,8 +115,29 @@
         width: 300px;
     }
 
-
     .redes-sociales{
         font-size: 30px;
+    }
+    .body-promos{
+        .main-promos{
+            h1{
+                font-size: 25px;
+                padding-top: 310px;
+            }
+            .container__slider{
+                height: 450px;
+                .container-cards{
+                    .cards{
+                        .card{
+                            width: 75%;
+                            height: 295px;
+                            img{
+                                border-radius: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 } 

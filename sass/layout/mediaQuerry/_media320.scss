@@ -34,41 +34,38 @@
             }
         }
     }
-}
 
-
-.mainServicios{
-    section{
-        .card-servicios{
-            width: 280px;
-            height: 70px;
-            h2{
-                margin-top: 5px;
-                font-size: 30px;
-            }
-            p{
-                font-size: 15px;
+    .mainServicios{
+        section{
+            .card-servicios{
+                width: 280px;
+                height: 70px;
+                h2{
+                    margin-top: 5px;
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 15px;
+                }
             }
         }
     }
-}
 
-.mainUbicacion{
-    .parrafoUbicacion{
-        width: 80%;
-        margin: auto;
-        div{
-            p{
-                width: 80%;
-                margin: auto;
-                margin-top: 20px;
-                font-size: 15px;
+    .body-promos{
+        .main-promos{
+            h1{
             }
-        }
-        .iframeUbicacion{
-            a{
-                width: 80%;
-                height: 50%;
+            .container__slider{
+                .container-cards{
+                    .cards{
+                        .card{
+                            width: 75%;
+                            height: 250px;
+                            img{
+                            }
+                        }
+                    }
+                }
             }
         }
     }
