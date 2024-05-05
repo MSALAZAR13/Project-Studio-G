@@ -458,6 +458,64 @@ main {
       .main-contactos form .boton-enviar:hover {
         background-color: #830505; }
 
+.main-promos {
+  width: 100%;
+  height: 100%; }
+  .main-promos .container__slider {
+    width: 90%;
+    height: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px; }
+    .main-promos .container__slider .container-cards {
+      width: 100%;
+      max-width: 800px;
+      height: 100%;
+      max-height: 1000px;
+      transform-style: preserve-3d;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .main-promos .container__slider .container-cards input[type=radio] {
+        display: none; }
+      .main-promos .container__slider .container-cards .cards {
+        position: relative;
+        width: 100%;
+        height: 100%; }
+        .main-promos .container__slider .container-cards .cards .card {
+          position: absolute;
+          width: 60%;
+          height: 900px;
+          left: 0;
+          right: 0;
+          margin: auto;
+          cursor: pointer;
+          transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); }
+          .main-promos .container__slider .container-cards .cards .card img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover; }
+  .main-promos #item-2:checked ~ .cards #selector-1,
+  .main-promos #item-1:checked ~ .cards #selector-3,
+  .main-promos #item-3:checked ~ .cards #selector-2 {
+    transform: translateX(-60%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0; }
+  .main-promos #item-3:checked ~ .cards #selector-1,
+  .main-promos #item-1:checked ~ .cards #selector-2,
+  .main-promos #item-2:checked ~ .cards #selector-3 {
+    transform: translateX(60%) scale(0.8);
+    opacity: 0.6;
+    z-index: 0; }
+  .main-promos #item-1:checked ~ .cards #selector-1,
+  .main-promos #item-2:checked ~ .cards #selector-2,
+  .main-promos #item-3:checked ~ .cards #selector-3 {
+    transform: translateX(0) scale(1);
+    z-index: 1; }
+
 footer {
   width: 100%;
   height: 200px;
