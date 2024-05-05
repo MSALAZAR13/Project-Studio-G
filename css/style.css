@@ -70,17 +70,17 @@ main {
 
 @keyframes animation {
   0% {
-    background-image: url(../assets/img/foto-b1.jpg); }
+    background-image: url(../assets/img/foto-b1-opt.jpg); }
   33% {
-    background-image: url(../assets/img/foto-b1.jpg); }
+    background-image: url(../assets/img/foto-b1-opt.jpg); }
   34% {
-    background-image: url(../assets/img/foto-b2.jpg); }
+    background-image: url(../assets/img/foto-b2-opt.jpg); }
   66% {
-    background-image: url(../assets/img/foto-b2.jpg); }
+    background-image: url(../assets/img/foto-b2-opt.jpg); }
   67% {
-    background-image: url(../assets/img/foto-b3.jpg); }
+    background-image: url(../assets/img/foto-b3-opt.jpg); }
   100% {
-    background-image: url(../assets/img/foto-b3.jpg); } }
+    background-image: url(../assets/img/foto-b3-opt.jpg); } }
   main .flexbox1 {
     width: 100%;
     display: flex;
@@ -151,7 +151,7 @@ main {
     gap: 80px; }
     main .segunda-parte .section-promos1 article {
       width: 600px;
-      height: 910px;
+      height: 1065px;
       margin: auto;
       margin-top: 28px;
       border-radius: 30px 30px;
@@ -160,7 +160,8 @@ main {
         margin: auto; }
         main .segunda-parte .section-promos1 article div img {
           width: 100%;
-          height: 100%; }
+          height: 100%;
+          object-fit: contain; }
     main .segunda-parte .parrafoPromos1 {
       width: 100%;
       font-family: "Bebas Neue", sans-serif;
@@ -172,7 +173,7 @@ main {
         color: white; }
     main .segunda-parte .section-promos2 .card-promos2 {
       width: 600px;
-      height: 910px;
+      height: 1065px;
       margin: auto;
       margin-top: 28px;
       border-radius: 30px 30px;
@@ -524,10 +525,10 @@ footer {
       flex-wrap: wrap; }
     main .productos-inicio .segunda-parte div .section-promos1 article {
       width: 400px;
-      height: 605px; }
+      height: 710px; }
     main .productos-inicio .segunda-parte div .section-promos2 article {
       width: 400px;
-      height: 605px; }
+      height: 710px; }
       main .productos-inicio .segunda-parte div .section-promos2 article div img {
         width: 100%;
         height: 100%; }
@@ -642,12 +643,12 @@ footer {
     text-align: center; }
   main .productos-inicio .segunda-parte div .section-promos1 article {
     width: 350px;
-    height: 545px; }
+    height: 620px; }
   main .productos-inicio .segunda-parte div .parrafoPromos1 p {
     font-size: 18px; }
   main .productos-inicio .segunda-parte div .section-promos2 article {
     width: 350px;
-    height: 545px; }
+    height: 620px; }
   main .productos-inicio .segunda-parte div .parrafoPromos2 p {
     font-size: 18px; }
   main .productos-inicio .tercera-parte .section-portfolio article {
@@ -717,7 +718,7 @@ footer {
       flex-direction: row;
       width: 100%;
       height: 50px;
-      margin-top: 50px;
+      margin-top: 100px;
       gap: 20px;
       font-size: 35px; }
       .main-contactos .redes-sociales a {
@@ -761,12 +762,12 @@ footer {
     text-align: center; }
   main .productos-inicio .segunda-parte div .section-promos1 article {
     width: 290px;
-    height: 450px; }
+    height: 514px; }
   main .productos-inicio .segunda-parte div .parrafoPromos1 p {
     font-size: 15px; }
   main .productos-inicio .segunda-parte div .section-promos2 article {
     width: 290px;
-    height: 450px; }
+    height: 514px; }
   main .productos-inicio .segunda-parte div .parrafoPromos2 p {
     font-size: 15px; }
   main .productos-inicio .tercera-parte .section-portfolio article {
