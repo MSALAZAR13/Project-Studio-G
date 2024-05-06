@@ -466,7 +466,8 @@ main {
 
 .body-promos .main-promos {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  padding-bottom: 200px; }
   .body-promos .main-promos h1 {
     color: white;
     text-align: center;
@@ -530,6 +531,20 @@ main {
   .body-promos .main-promos #item-3:checked ~ .cards #selector-3 {
     transform: translateX(0) scale(1);
     z-index: 1; }
+  .body-promos .main-promos section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px; }
+    .body-promos .main-promos section article .card-promos {
+      width: 350px;
+      height: 600px;
+      border-radius: 35px;
+      overflow: hidden; }
+      .body-promos .main-promos section article .card-promos img {
+        width: 100%;
+        height: 100%; }
 
 footer {
   width: 100%;
@@ -645,7 +660,12 @@ footer {
           height: 800px;
           margin: auto;
           cursor: pointer;
-          transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); } }
+          transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .body-promos .main-promos section {
+    gap: 40px; }
+    .body-promos .main-promos section article .card-promos {
+      width: 270px;
+      height: 500px; } }
 
 @media (max-width: 768px) {
   .logo-studio {
@@ -726,6 +746,11 @@ footer {
           height: 600px; }
           .body-promos .main-promos .container__slider .container-cards .cards .card img {
             object-fit: cover; }
+  .body-promos .main-promos section {
+    gap: 30px; }
+    .body-promos .main-promos section article .card-promos {
+      width: 210px;
+      height: 400px; }
   footer .direction-footer {
     margin-top: 30px;
     width: 30%; }
@@ -881,6 +906,14 @@ footer {
           .body-promos .main-promos .container__slider .container-cards .cards .card img {
             border-radius: 15px;
             object-fit: cover; }
+  .body-promos .main-promos section {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; }
+    .body-promos .main-promos section article .card-promos {
+      width: 210px;
+      height: 400px; }
   footer {
     height: 150px; }
     footer .direction-footer {

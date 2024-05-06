@@ -147,6 +147,15 @@
                     }
                 }
             }
+            section{
+                gap: 30px;
+                article{
+                    .card-promos{
+                        width: 210px;
+                        height: 400px;
+                    }
+                }
+            }
         }
     }
     footer{

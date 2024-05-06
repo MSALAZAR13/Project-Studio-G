@@ -114,7 +114,7 @@
             }
         }
     }
-.body-promos{
+    .body-promos{
         .main-promos{
             h1{
                 font-size: 40px;
@@ -143,6 +143,15 @@
                             img{
                             }
                         }
+                    }
+                }
+            }
+            section{
+                gap: 40px;
+                article{
+                    .card-promos{
+                        width: 270px;
+                        height: 500px;
                     }
                 }
             }

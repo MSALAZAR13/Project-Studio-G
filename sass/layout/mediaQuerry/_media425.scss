@@ -238,6 +238,18 @@
                     }
                 }
             }
+            section{
+                margin-top: 40px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                article{
+                    .card-promos{
+                        width: 210px;
+                        height: 400px;
+                    }
+                }
+            }
         }
     }
 
